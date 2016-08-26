@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF069AD51D6FE57A00D46ACC /* NewShelvingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */; };
 		DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */; };
 		DFBAA1911D5DCDCE00FA802F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1901D5DCDCE00FA802F /* main.m */; };
 		DFBAA1941D5DCDCE00FA802F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1931D5DCDCE00FA802F /* AppDelegate.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF069AD31D6FE57A00D46ACC /* NewShelvingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewShelvingViewController.h; sourceTree = "<group>"; };
+		DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShelvingViewController.m; sourceTree = "<group>"; };
 		DF15B4FE1D6BE0630062F061 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
 		DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 		DFBAA18C1D5DCDCE00FA802F /* IMDShelvingTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDShelvingTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +94,8 @@
 				DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */,
 				DFC72A911D6D341C00024F62 /* ImageCollectionViewController.h */,
 				DFC72A921D6D341C00024F62 /* ImageCollectionViewController.m */,
+				DF069AD31D6FE57A00D46ACC /* NewShelvingViewController.h */,
+				DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */,
 				DFBAA1981D5DCDCE00FA802F /* Main.storyboard */,
 				DFBAA19B1D5DCDCE00FA802F /* Assets.xcassets */,
 				DFBAA19D1D5DCDCE00FA802F /* LaunchScreen.storyboard */,
@@ -200,6 +205,7 @@
 				DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */,
 				DFBAA1A81D5DD46100FA802F /* DashboardViewController.m in Sources */,
 				DFC72A931D6D341C00024F62 /* ImageCollectionViewController.m in Sources */,
+				DF069AD51D6FE57A00D46ACC /* NewShelvingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
