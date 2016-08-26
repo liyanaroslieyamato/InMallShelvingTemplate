@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ComposeAlertViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>
+@interface AlertToLoadingBayViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *unitBtnOutlet;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;

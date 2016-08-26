@@ -1,21 +1,19 @@
 //
-//  ComposeAlertViewController.m
+//  AlertToCustomerViewController.m
 //  IMDShelvingTemplate
 //
 //  Created by Liyana Roslie on 26/8/16.
 //  Copyright © 2016 Liyana Roslie. All rights reserved.
 //
 
-#import "ComposeAlertViewController.h"
+#import "AlertToCustomerViewController.h"
 
-@interface ComposeAlertViewController () {
+@interface AlertToCustomerViewController () {
     NSArray *images;
 }
 @end
 
-@implementation ComposeAlertViewController
-
-static NSString * const reuseIdentifier = @"Cell";
+@implementation AlertToCustomerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

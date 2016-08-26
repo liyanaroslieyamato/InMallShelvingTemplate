@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF069AD51D6FE57A00D46ACC /* NewShelvingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */; };
-		DF069AD81D70074100D46ACC /* ComposeAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */; };
+		DF069AD81D70074100D46ACC /* AlertToLoadingBayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD71D70074100D46ACC /* AlertToLoadingBayViewController.m */; };
 		DF069ADB1D70213000D46ACC /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069ADA1D70213000D46ACC /* AlertTableViewController.m */; };
+		DF069ADE1D7032B100D46ACC /* AlertToCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069ADD1D7032B100D46ACC /* AlertToCustomerViewController.m */; };
 		DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */; };
 		DFBAA1911D5DCDCE00FA802F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1901D5DCDCE00FA802F /* main.m */; };
 		DFBAA1941D5DCDCE00FA802F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1931D5DCDCE00FA802F /* AppDelegate.m */; };
@@ -29,10 +30,12 @@
 /* Begin PBXFileReference section */
 		DF069AD31D6FE57A00D46ACC /* NewShelvingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewShelvingViewController.h; sourceTree = "<group>"; };
 		DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShelvingViewController.m; sourceTree = "<group>"; };
-		DF069AD61D70074100D46ACC /* ComposeAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeAlertViewController.h; sourceTree = "<group>"; };
-		DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeAlertViewController.m; sourceTree = "<group>"; };
+		DF069AD61D70074100D46ACC /* AlertToLoadingBayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertToLoadingBayViewController.h; sourceTree = "<group>"; };
+		DF069AD71D70074100D46ACC /* AlertToLoadingBayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertToLoadingBayViewController.m; sourceTree = "<group>"; };
 		DF069AD91D70213000D46ACC /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
 		DF069ADA1D70213000D46ACC /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
+		DF069ADC1D7032B100D46ACC /* AlertToCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertToCustomerViewController.h; sourceTree = "<group>"; };
+		DF069ADD1D7032B100D46ACC /* AlertToCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertToCustomerViewController.m; sourceTree = "<group>"; };
 		DF15B4FE1D6BE0630062F061 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
 		DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 		DFBAA18C1D5DCDCE00FA802F /* IMDShelvingTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDShelvingTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,8 +105,10 @@
 				DFC72A921D6D341C00024F62 /* ImageCollectionViewController.m */,
 				DF069AD31D6FE57A00D46ACC /* NewShelvingViewController.h */,
 				DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */,
-				DF069AD61D70074100D46ACC /* ComposeAlertViewController.h */,
-				DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */,
+				DF069AD61D70074100D46ACC /* AlertToLoadingBayViewController.h */,
+				DF069AD71D70074100D46ACC /* AlertToLoadingBayViewController.m */,
+				DF069ADC1D7032B100D46ACC /* AlertToCustomerViewController.h */,
+				DF069ADD1D7032B100D46ACC /* AlertToCustomerViewController.m */,
 				DF069AD91D70213000D46ACC /* AlertTableViewController.h */,
 				DF069ADA1D70213000D46ACC /* AlertTableViewController.m */,
 				DFBAA1981D5DCDCE00FA802F /* Main.storyboard */,
@@ -210,11 +215,12 @@
 			files = (
 				DFBAA1971D5DCDCE00FA802F /* LoginViewController.m in Sources */,
 				DFBAA1941D5DCDCE00FA802F /* AppDelegate.m in Sources */,
-				DF069AD81D70074100D46ACC /* ComposeAlertViewController.m in Sources */,
+				DF069AD81D70074100D46ACC /* AlertToLoadingBayViewController.m in Sources */,
 				DFBAA1911D5DCDCE00FA802F /* main.m in Sources */,
 				DF069ADB1D70213000D46ACC /* AlertTableViewController.m in Sources */,
 				DFD7D7B71D61C1A100743359 /* ItemListViewController.m in Sources */,
 				DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */,
+				DF069ADE1D7032B100D46ACC /* AlertToCustomerViewController.m in Sources */,
 				DFBAA1A81D5DD46100FA802F /* DashboardViewController.m in Sources */,
 				DFC72A931D6D341C00024F62 /* ImageCollectionViewController.m in Sources */,
 				DF069AD51D6FE57A00D46ACC /* NewShelvingViewController.m in Sources */,
