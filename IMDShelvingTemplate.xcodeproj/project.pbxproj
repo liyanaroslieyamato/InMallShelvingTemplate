@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF069AD51D6FE57A00D46ACC /* NewShelvingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */; };
 		DF069AD81D70074100D46ACC /* ComposeAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */; };
+		DF069ADB1D70213000D46ACC /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF069ADA1D70213000D46ACC /* AlertTableViewController.m */; };
 		DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */; };
 		DFBAA1911D5DCDCE00FA802F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1901D5DCDCE00FA802F /* main.m */; };
 		DFBAA1941D5DCDCE00FA802F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA1931D5DCDCE00FA802F /* AppDelegate.m */; };
@@ -30,6 +31,8 @@
 		DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewShelvingViewController.m; sourceTree = "<group>"; };
 		DF069AD61D70074100D46ACC /* ComposeAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeAlertViewController.h; sourceTree = "<group>"; };
 		DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeAlertViewController.m; sourceTree = "<group>"; };
+		DF069AD91D70213000D46ACC /* AlertTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
+		DF069ADA1D70213000D46ACC /* AlertTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
 		DF15B4FE1D6BE0630062F061 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
 		DF15B4FF1D6BE0630062F061 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 		DFBAA18C1D5DCDCE00FA802F /* IMDShelvingTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDShelvingTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +104,8 @@
 				DF069AD41D6FE57A00D46ACC /* NewShelvingViewController.m */,
 				DF069AD61D70074100D46ACC /* ComposeAlertViewController.h */,
 				DF069AD71D70074100D46ACC /* ComposeAlertViewController.m */,
+				DF069AD91D70213000D46ACC /* AlertTableViewController.h */,
+				DF069ADA1D70213000D46ACC /* AlertTableViewController.m */,
 				DFBAA1981D5DCDCE00FA802F /* Main.storyboard */,
 				DFBAA19B1D5DCDCE00FA802F /* Assets.xcassets */,
 				DFBAA19D1D5DCDCE00FA802F /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				DFBAA1941D5DCDCE00FA802F /* AppDelegate.m in Sources */,
 				DF069AD81D70074100D46ACC /* ComposeAlertViewController.m in Sources */,
 				DFBAA1911D5DCDCE00FA802F /* main.m in Sources */,
+				DF069ADB1D70213000D46ACC /* AlertTableViewController.m in Sources */,
 				DFD7D7B71D61C1A100743359 /* ItemListViewController.m in Sources */,
 				DF15B5001D6BE0630062F061 /* ItemDetailViewController.m in Sources */,
 				DFBAA1A81D5DD46100FA802F /* DashboardViewController.m in Sources */,
